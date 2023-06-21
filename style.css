@@ -1,0 +1,25 @@
+/* Efeito cascata */
+.container-cascata {
+  background-color: aqua;
+}
+
+/* .container-cascata {
+  background-color: orange;
+} */
+
+/* Caso a gente descomente o código acima ele irá se sobrepor ao background-color: aqua por conta do efeito cascata */
+
+.container-especificidade p {
+  background-color: blueviolet;
+}
+
+#lorem {
+  background-color: red;
+}
+.paragrafo {
+  background-color: blue;
+} 
+
+/* Perceba acima que, mesmo o seletor .paragrafo sendo mais forte no quesito cascata, a adição do elemento de id # tem um valor maior, então ele quem será lido: */
+
+/* ------------Especificidade-------------- */
